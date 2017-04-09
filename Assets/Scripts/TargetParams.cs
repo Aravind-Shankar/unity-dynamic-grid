@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// Fully customizable struct for holding all parameters needed to create a DynamicGrid button.
 public struct TargetParams
 {
 	public string displayName;
