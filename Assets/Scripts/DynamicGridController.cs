@@ -150,11 +150,11 @@ public class DynamicGridController : MonoBehaviour
 									// and this code serves as an example of how to use reflection
 									// to access these fields using the types loaded from the assembly.
 
-									var xFieldInfo = type.GetField ("x", BindingFlags.Instance | BindingFlags.Public);
+									/* var xFieldInfo = type.GetField ("x", BindingFlags.Instance | BindingFlags.Public);
 									var rFieldInfo = type.GetField ("r", BindingFlags.Instance | BindingFlags.Public);
 
 									Debug.Log ("x value = " + (int)(xFieldInfo.GetValue (component)));
-									Debug.Log ("r value = " + (Vector3)(rFieldInfo.GetValue (component)));
+									Debug.Log ("r value = " + (Vector3)(rFieldInfo.GetValue (component))); */
 								}
 							}
 						}
